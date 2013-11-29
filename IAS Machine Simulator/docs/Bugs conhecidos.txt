@@ -1,0 +1,7 @@
+Bugs descobertos até 29.11.2013:
+
+- A simulação não ocorre corretamente quando a região de valores está abaixo da região de instruções. (Medio)
+
+- O programa permite como entrada nomes do tipo: ".ias" "/.ias" "/nome.ias" "//.ias" entre outros. (Leve)
+
+- O arquivo LOG pode ter tamanho indefinido em caso de loop infinito no programa IAS. (Medio)

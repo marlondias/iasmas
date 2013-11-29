@@ -1,0 +1,29 @@
+<data>
+4096
+0
+0
+0
+0
+-904
+96
+
+<code>
+load m(0)
+lsh
+
+stor m(1)
+load m(0)
+
+rsh
+stor m(2)
+
+load m(0) 
+add |m(5)|
+
+stor m(3)
+load m(0)
+
+sub m(6)
+stor m(4)
+
+exit

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="IAS Machine Simulator" />
+		<Option platforms="Unix;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/iasmas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/iasmas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="c source/AreaDeTestes.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="c source/Carregador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c source/Info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c source/InterfaceSimulador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c source/Memoria.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c source/Processador.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c source/Tradutor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c source/UC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="c source/ULA32.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="c source/ULA64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="headers/carregador.h" />
+		<Unit filename="headers/info.h" />
+		<Unit filename="headers/memoria.h" />
+		<Unit filename="headers/processador.h" />
+		<Unit filename="headers/registradores.h" />
+		<Unit filename="headers/stdias.h" />
+		<Unit filename="headers/tradutor.h" />
+		<Unit filename="headers/uc.h" />
+		<Unit filename="headers/ula.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

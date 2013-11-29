@@ -1,0 +1,21 @@
+<data>
+0
+1
+100
+4000
+-99
+
+<code>
+load m(0) 
+add m(1)
+
+stor m(0)
+load m(2)
+
+sub m(0) 
+jump+ m(5, 0:19)
+
+load m(3)
+stor m(4)
+
+exit

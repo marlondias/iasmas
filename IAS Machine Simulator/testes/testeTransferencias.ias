@@ -1,0 +1,33 @@
+<data>
+-300000000000 
+0
+0
+0
+0
+4042322160
+2863311530
+2863311530
+0
+
+<code>
+load m(0) 
+stor m(1)
+
+load -m(0)  
+stor m(2)
+
+load |m(0)|  
+stor m(3)
+
+load -|m(0)|  
+stor m(4)
+
+
+load m(5)   
+stor m(6, 8:19)
+
+stor m(7, 28:39)   
+stor m(8, 8:19)
+
+stor m(8, 28:39)
+exit

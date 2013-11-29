@@ -1,0 +1,43 @@
+<data>
+5000000
+30000
+0
+0
+0
+0
+0
+0
+
+<code>
+load m(0)
+mul m(1)
+
+load mq 
+stor m(2)  
+
+load -m(0)
+mul m(1)
+
+load mq
+stor m(3)  
+
+load |m(0)|
+mul m(1)
+
+load mq
+stor m(4)  
+
+load -|m(0)|
+mul m(1)
+
+load mq
+stor m(5)  
+
+load m(0) 
+div m(1)
+
+stor m(6)
+load mq
+
+stor m(7)
+exit

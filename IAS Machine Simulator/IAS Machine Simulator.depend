@@ -1,0 +1,198 @@
+# depslib dependency file v1.0
+1384684472 source:/home/marlon/Documents/IAS Computer Simulator/ULA.c
+	"stdias.h"
+
+1383664116 source:/home/marlon/Documents/IAS Computer Simulator/Conversor.c
+	<stdio.h>
+	<string.h>
+
+1381493481 source:/home/usr/cc2011/ra69433/IAS Computer Simulator ark1 11 10/Conversor.c
+	<stdio.h>
+	<string.h>
+
+1381491944 source:/home/usr/cc2011/ra69433/IAS Computer Simulator ark1 11 10/UC.c
+
+1381493132 source:/home/usr/cc2011/ra69433/IAS Computer Simulator ark1 11 10/ULA.c
+	<stdio.h>
+
+1381493378 source:/home/usr/cc2011/ra69433/IAS Computer Simulator ark1 11 10/MEMO.c
+
+1381502861 source:/home/marlon/Documents/IAS Computer Simulator/MEMO.c
+
+1385333327 source:/home/marlon/Documents/IAS Computer Simulator/UC.c
+	<stdio.h>
+	<stdlib.h>
+	"memoria.h"
+	"registradores.h"
+	"ula.h"
+
+1385137356 source:/home/marlon/Documents/IAS Computer Simulator/Memoria.c
+	"stdias.h"
+	"registradores.h"
+	"stdio.h"
+
+1385323619 /home/marlon/Documents/IAS Computer Simulator/stdias.h
+	<inttypes.h>
+
+1385297262 source:/home/marlon/Documents/IAS Computer Simulator/AreaDeTestes.c
+	<stdio.h>
+	"registradores.h"
+	"uc.h"
+	"info.h"
+	"ula.h"
+	"memoria.h"
+
+1381811135 /home/marlon/Documents/IAS Computer Simulator/Memoria.h
+	"stdias.h"
+
+1385137411 /home/marlon/Documents/IAS Computer Simulator/memoria.h
+	"stdias.h"
+
+1385333362 source:/home/marlon/Documents/IAS Computer Simulator/InterfaceSimulador.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	"tradutor.h"
+	"carregador.h"
+	"info.h"
+	"uc.h"
+	"processador.h"
+
+1385171419 source:/home/marlon/Documents/IAS Computer Simulator/Tradutor.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"stdias.h"
+
+1385323607 /home/marlon/Documents/IAS Computer Simulator/tradutor.h
+
+1385327434 source:/home/marlon/Documents/IAS Computer Simulator/Carregador.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"stdias.h"
+	"memoria.h"
+
+1385170885 /home/marlon/Documents/IAS Computer Simulator/carregador.h
+
+1385333523 source:/home/marlon/Documents/IAS Computer Simulator/ULA32.c
+	<stdio.h>
+
+1385297004 source:/home/marlon/Documents/IAS Computer Simulator/ULA64.c
+	"stdias.h"
+
+1384558608 source:/home/marlon/Documents/IAS Computer Simulator/Registradores.c
+	<stdio.h>
+
+1385323639 /home/marlon/Documents/IAS Computer Simulator/registradores.h
+	"stdias.h"
+
+1384655875 /home/marlon/Documents/IAS Computer Simulator/unicon.h
+
+1385163143 /home/marlon/Documents/IAS Computer Simulator/ula.h
+
+1385327420 source:/home/marlon/Documents/IAS Computer Simulator/Info.c
+	<stdio.h>
+	"registradores.h"
+	"memoria.h"
+
+1385292828 /home/marlon/Documents/IAS Computer Simulator/info.h
+	<stdio.h>
+
+1385323571 /home/marlon/Documents/IAS Computer Simulator/uc.h
+
+1385333342 source:/home/marlon/Documents/IAS Computer Simulator/Processador.c
+	"uc.h"
+	"registradores.h"
+	"info.h"
+	"ula.h"
+
+1384663470 source:/home/usr/cc2011/ra69433/IASMAS/Carregador.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"stdias.h"
+	"memoria.h"
+
+1385116324 /home/usr/cc2011/ra69433/IASMAS/stdias.h
+	<inttypes.h>
+
+1385116960 /home/usr/cc2011/ra69433/IASMAS/memoria.h
+	"stdias.h"
+
+1385116841 source:/home/usr/cc2011/ra69433/IASMAS/Memoria.c
+	"stdias.h"
+	"registradores.h"
+
+1385119254 /home/usr/cc2011/ra69433/IASMAS/registradores.h
+	"stdias.h"
+
+1385029918 source:/home/usr/cc2011/ra69433/IASMAS/Processador.c
+	<stdio.h>
+	"uc.h"
+	"ula.h"
+	"info.h"
+
+1385115699 /home/usr/cc2011/ra69433/IASMAS/uc.h
+
+1385113452 /home/usr/cc2011/ra69433/IASMAS/ula.h
+
+1385115699 /home/usr/cc2011/ra69433/IASMAS/info.h
+
+1385118934 source:/home/usr/cc2011/ra69433/IASMAS/Tradutor.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"stdias.h"
+
+1385119219 source:/home/usr/cc2011/ra69433/IASMAS/UC.c
+	<stdio.h>
+	<stdlib.h>
+	"memoria.h"
+	"registradores.h"
+	"ula.h"
+
+1384684472 source:/home/usr/cc2011/ra69433/IASMAS/ULA.c
+	"stdias.h"
+
+1385111576 source:/home/usr/cc2011/ra69433/IASMAS/ULA64.c
+	"stdias.h"
+
+1385116233 source:/home/usr/cc2011/ra69433/IASMAS/InterfaceSimulador.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	"tradutor.h"
+	"carregador.h"
+	"registradores.h"
+
+1385116249 /home/usr/cc2011/ra69433/IASMAS/tradutor.h
+
+1385117047 /home/usr/cc2011/ra69433/IASMAS/carregador.h
+
+1385118838 source:/home/usr/cc2011/ra69433/IASMAS/AreaDeTestes.c
+	<stdio.h>
+	"registradores.h"
+	"uc.h"
+	"info.h"
+	"ula.h"
+
+1385332329 /home/marlon/Documents/IAS Computer Simulator/processador.h
+
+1385696907 source:/home/marlon/Documents/IAS Computer Simulator2/c source/Carregador.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"../headers/stdias.h"
+	"../headers/memoria.h"
+
+1385323619 /home/marlon/Documents/IAS Computer Simulator2/headers/stdias.h
+	<inttypes.h>
+
+1385137411 /home/marlon/Documents/IAS Computer Simulator2/headers/memoria.h
+	"stdias.h"
+
